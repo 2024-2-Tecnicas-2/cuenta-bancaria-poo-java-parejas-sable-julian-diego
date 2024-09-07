@@ -14,8 +14,38 @@ public class CuentaBancaria {
         this.tipoInteres = 0.15;
     }
     
-  
-    
+        
+     public String getTitular() {
+        return titular;
+    }
+
+    public  void setTitular(String titular) {
+        this.titular = titular;
+    }
+
+    public String getNumeroCuenta() {
+        return numeroCuenta;
+    }
+
+    public void setNumeroCuenta(String numeroCuenta) {
+        this.numeroCuenta = numeroCuenta;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+    public double getTipoInteres() {
+        return tipoInteres;
+    }
+
+    public void setTipoInteres(double tipoInteres) {
+        this.tipoInteres = tipoInteres;
+    }
 
     public double ingresar(double cantidad) {
 
@@ -28,9 +58,10 @@ public class CuentaBancaria {
     public void calcularInteres(){
     
     }
+
+   
     
-    public double setTipoInteres(double tipoInteres){
+   
     
-    return 0;
-    }
+    
 }
