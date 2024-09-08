@@ -56,4 +56,12 @@ public class CuentaBancaria {
     public void mostrarCuentas(){
         System.out.println("nombre titular: "+this.titular+" El número de cuenta es: "+this.cuenta+" El saldo de la cuenta es: "+this.saldo+" el tipo de interes es: "+this.tipoInteres);
     }
+
+    public class listaCuentas {
+
+        public listaCuentas() {
+        }
+    }
+
+   
 }
